@@ -1,44 +1,54 @@
 import React from 'react'; 
 import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
+import matt from '../static/tempImages/matt.jpg';
+import thomas from '../static/tempImages/thomas.jpg';
+import tyler from '../static/tempImages/tyler.jpg';
+import yiting from '../static/tempImages/yiting.jpg';
+
 
 export default function TeamContainer(){
+   const mattLinkedIn = 'https://www.linkedin.com/in/mehart/';
+   const thomasLinkedIn = 'https://www.linkedin.com/in/thomas-ortiz-52a187166/';
+   const tylerLinkedIn = 'https://www.linkedin.com/in/tylersavitsky/';
+   const yitingLinkedIn = 'https://www.linkedin.com/in/yiting-xiao/';
+
 return(
     <div id='team_container'>
     <div id='matt_container'>
-       <a href='https://www.linkedin.com/in/mehart/'><img className='profile' src='https://media.licdn.com/dms/image/C5603AQE1hlSGyYl2Sw/profile-displayphoto-shrink_400_400/0/1557572457531?e=1713398400&v=beta&t=diw6hbIW_PBs55Gwl-ykOTSay4aVPGy2dAl2tNEjhd8'/></a>
-       <a href='https://www.linkedin.com/in/mehart/'><p>Matt Hart</p></a>
+       <a href={mattLinkedIn}><img className='profile' src={matt}/></a>
+       <a href={mattLinkedIn}><p>Matt Hart</p></a>
        <div className='icons'>
        <a href='https://github.com/TechToysAreFun'><FaGithub className='gitHub'/></a> 
-       <a href='https://www.linkedin.com/in/mehart/'><BsLinkedin className='linkedIn'/></a>
+       <a href={mattLinkedIn}><BsLinkedin className='linkedIn'/></a>
        </div>
     </div>
 
     <div id='thomas_container'>
-       <a href='https://www.linkedin.com/in/thomas-ortiz-52a187166/'><img className='profile' src='https://media.licdn.com/dms/image/C5603AQFSDCIjUMIxLg/profile-displayphoto-shrink_400_400/0/1536618995004?e=1713398400&v=beta&t=5out64AaHHlDG0rccj7HmsB2OM9hVkV5JyGp2v6avtY'/></a>
+       <a href={thomasLinkedIn}><img className='profile' src={thomas}/></a>
        
-       <a href='https://www.linkedin.com/in/thomas-ortiz-52a187166/'><p>Thomas Ortiz</p></a>
+       <a href={thomasLinkedIn}><p>Thomas Ortiz</p></a>
        <div className='icons'>
        <a href='https://github.com/thomas444ortiz'><FaGithub className='gitHub'/></a> 
-       <a href='https://www.linkedin.com/in/thomas-ortiz-52a187166/'><BsLinkedin className='linkedIn'/></a>
+       <a href={thomasLinkedIn}><BsLinkedin className='linkedIn'/></a>
        </div>
     </div>
 
     <div id='tyler_container'>
-     <a href='https://www.linkedin.com/in/tylersavitsky/'><img className='profile' src='https://media.licdn.com/dms/image/C5603AQGLNtdGBUKLcg/profile-displayphoto-shrink_800_800/0/1609977287739?e=1713398400&v=beta&t=bJN0FKIUU3fykB2u9PN-PGfNmDKOUalrFfJVaL-StPc'/></a>
+     <a href={tylerLinkedIn}><img className='profile' src={tyler}/></a>
      <a href='https://www.linkedin.com/in/tylersavitsky/'><p>Tyler Savitsky</p></a>
        <div className='icons'>
-       <a href='https://github.com/booleanmagus'><FaGithub className='gitHub'/></a>
-       <a href='https://www.linkedin.com/in/tylersavitsky/'><BsLinkedin className='linkedIn'/></a>
+       <a href={tylerLinkedIn}><FaGithub className='gitHub'/></a>
+       <a href={tylerLinkedIn}><BsLinkedin className='linkedIn'/></a>
        </div>
     </div>
 
     <div id='yiting_container'>
-    <a href='https://www.linkedin.com/in/yiting-xiao/'><img className='profile' src='https://media.licdn.com/dms/image/D4D03AQFkbEQ_KgX8nw/profile-displayphoto-shrink_400_400/0/1683758962463?e=1713398400&v=beta&t=jXWGrDoKIuSTM5vuIsK1XnN5_iusDy7m0mfOQsN6VO8'/></a>
-    <a href='https://www.linkedin.com/in/yiting-xiao/'><p>Yiting Xiao</p></a>
+    <a href={yitingLinkedIn}><img className='profile' src={yiting}/></a>
+    <a href={yitingLinkedIn}><p>Yiting Xiao</p></a>
       <div className='icons'>
       <a href='https://github.com/Yitingx531'><FaGithub className='gitHub'/></a>
-      <a href='https://www.linkedin.com/in/yiting-xiao/'><BsLinkedin className='linkedIn'/></a>
+      <a href={yitingLinkedIn}><BsLinkedin className='linkedIn'/></a>
       </div>
     </div>
     </div>
