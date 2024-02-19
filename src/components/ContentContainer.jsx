@@ -1,6 +1,6 @@
 import React from 'react';
-import dashboard from '../../tempImages/dashboard.png';
-import logo from '../../tempImages/logo.png';
+import dashboard from '../static/tempImages/dashboard.png';
+import logo from '../static/tempImages/logo.png';
 
 export default function ContentContainer() {
     return (

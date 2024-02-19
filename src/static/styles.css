@@ -119,7 +119,7 @@ a:hover {
     color: #441563;
 }
 
-ß .gitHub:hover {
+.gitHub:hover {
     /* zoom: 1.2; */
     transition: 0.5s all ease-in-out;
     transform: scale(1.2);
@@ -142,4 +142,8 @@ a:hover {
 #team_container a {
     color: #441563;
     text-decoration: none;
+}
+
+#team_container a:hover{
+    color: rgb(196, 176, 59)
 }
