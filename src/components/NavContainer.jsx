@@ -6,7 +6,9 @@ export default function NavContainer(){
  
     return (
         <div className='navContainer'>
+          <div id='logo_container'>
           <img id='image-logo-main' src={logo} />
+          </div>
           <Link to='/about' className='nav-link'>About</Link>
           <Link to='/features' className='nav-link'>Features</Link>
           <Link to='https://github.com/oslabs-beta/K8sDependencyTracker' className='nav-link'>GitHub</Link>
