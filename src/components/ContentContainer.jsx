@@ -1,14 +1,12 @@
 import React from 'react';
-import dashboard from '../../tempImages/dashboard.png';
-import logo from '../../tempImages/logo.png';
+import dashboard from '../static/tempImages/dashboard.png';
+import logo from '../static/tempImages/logo.png';
 
 export default function ContentContainer() {
     return (
         <>
             <div id='content-container-main'>
                 <section id='content-intro'>
-                    <h1>K A T</h1>
-                    <img id='image-logo-main' src={logo} />
                     <h2>Kubernetes API Tracker</h2>
                     <p>No Frills | No Login | No Permissions | No BS</p>
                 </section>
