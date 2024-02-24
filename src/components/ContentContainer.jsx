@@ -32,8 +32,7 @@ export default function ContentContainer() {
                         <p>Simply enter the repo and install links and we'll do a dry-run before you ever need to install it on your machine</p>
                     </div>
                 </section>
-                <hr />
-
+                {/* <hr /> */}
             </div>
         </>
     )
