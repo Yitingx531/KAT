@@ -1,8 +1,8 @@
 import React from 'react';
 import MainContainer from '../components/MainContainer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutPageContainer from '../components/AboutPageContainer';
 import NavContainer from './NavContainer';
+import FeaturesPageContainer from './FeaturesPageContainer'
 
 export default function App(){
 
@@ -12,7 +12,7 @@ export default function App(){
     <NavContainer/>
       <Routes>
           <Route path="/" element={<MainContainer/>}></Route>
-          <Route path="/about" element={<AboutPageContainer/>}> </Route>
+          <Route path="/about" element={<FeaturesPageContainer/>}></Route>
       </Routes>
     </Router>
     </div>
