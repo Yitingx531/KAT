@@ -164,3 +164,7 @@ a:hover {
     width: fit-content;
     text-align: justify;
 }
+
+.features-container{
+    color: white;
+}
