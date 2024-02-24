@@ -28,8 +28,8 @@ body::before {
 }
 
 #content-intro h2 {
+    margin-top: 2rem;
     font-size: 3em;
-    margin: 0;
 }
 
 #content-midway {
@@ -48,7 +48,6 @@ body::before {
 }
 
 .content-feature-items {
-    /* border: black solid 1px; */
     width: 50%;
 }
 
@@ -61,6 +60,7 @@ body::before {
     letter-spacing: 1px;
     color: antiquewhite;
     margin-left: 0;
+    border-bottom:1px solid  antiquewhite; ;
 }
 
 .nav-link {
@@ -95,7 +95,8 @@ a:hover {
 .icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: baseline;
 }
 
 #image-dashboard {
@@ -107,7 +108,7 @@ a:hover {
 }
 
 #logo_container{
-
+    margin-top: -1rem;
 }
 
 #image-logo-2 {
@@ -149,4 +150,17 @@ a:hover {
 
 #team_container a:hover{
     color: rgb(196, 176, 59)
+}
+
+#about_page_container{
+    color: rgb(236, 231, 231) ;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+#about_page_content_container{
+    width: fit-content;
+    text-align: justify;
 }
