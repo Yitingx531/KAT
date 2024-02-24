@@ -7,8 +7,6 @@ export default function ContentContainer() {
         <>
             <div id='content-container-main'>
                 <section id='content-intro'>
-                    <h1>K A T</h1>
-                    <img id='image-logo-main' src={logo} />
                     <h2>Kubernetes API Tracker</h2>
                     <p>No Frills | No Login | No Permissions | No BS</p>
                 </section>

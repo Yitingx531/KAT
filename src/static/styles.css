@@ -13,7 +13,7 @@ body::before {
     height: 100%;
     background-image: linear-gradient(to right bottom, #34114c, #360f4c, #370d4c, #390b4b, #3b094b, #3c094d, #3e094e, #3f0950, #400c54, #400e58, #41115d, #411361);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-    z-index: -1;
+    z-index: -5;
 }
 
 #content-container-main {
@@ -53,12 +53,11 @@ body::before {
 }
 
 .navContainer {
-    margin-top: 0;
+    margin-top: 2rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     width: 100vw;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     color: antiquewhite;
     margin-left: 0;
@@ -104,7 +103,11 @@ a:hover {
 }
 
 #image-logo-main {
-    width: 300px;
+    width: 50px;
+}
+
+#logo_container{
+
 }
 
 #image-logo-2 {

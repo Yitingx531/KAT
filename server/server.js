@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.resolve(__dirname, '../dist')));
 app.use(express.static(path.resolve(__dirname, './src/static/tempImages')));
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     console.log('inside of server');
     return res.status(200).sendFile(path.resolve(__dirname, '../src/static/index.html'));
 });
