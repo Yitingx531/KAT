@@ -2,6 +2,7 @@ body {
     overflow: auto;
     height: 100%;
     font-family: "Open Sans", "PT Sans";
+    background-color: lightgrey;
 }
 
 body::before {
@@ -52,15 +53,23 @@ body::before {
 }
 
 .navContainer {
-    margin-top: 2rem;
     display: flex;
-    justify-content: space-around;
-    width: 100vw;
+    align-items: center;
     font-size: 1.5rem;
     letter-spacing: 1px;
     color: antiquewhite;
     margin-left: 0;
-    border-bottom:1px solid  antiquewhite; ;
+    border-bottom:1px solid  antiquewhite;
+    height: 100%;
+    padding: 0.5em;
+}
+
+#links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 2%;
 }
 
 .nav-link {
@@ -90,6 +99,8 @@ a:hover {
     font-weight: 700;
     font-size: 1.1rem;
     letter-spacing: 1px;
+    border-top: 1px solid rgb(113, 10, 138);
+    padding: 2rem;
 }
 
 .icons {
@@ -100,11 +111,12 @@ a:hover {
 }
 
 #image-dashboard {
-    width: 1100px;
+    width: 80vw;
 }
 
 #image-logo-main {
     width: 50px;
+    margin-left: .8rem;
 }
 
 #logo_container{
@@ -167,4 +179,11 @@ a:hover {
 
 .features-container{
     color: white;
+}
+
+.feature-content-container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
