@@ -13,9 +13,9 @@ body::before {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to right bottom, #34114c, #360f4c, #370d4c, #390b4b, #3b094b, #3c094d, #3e094e, #3f0950, #400c54, #400e58, #41115d, #411361);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); 
     z-index: -5;
-}
+} 
 
 #content-container-main {
     color: white;
@@ -165,7 +165,7 @@ a:hover {
 }
 
 #about_page_container{
-    color: rgb(236, 231, 231) ;
+    color: rgb(200, 192, 192) ;
     margin-left: 4rem;
     margin-right: 4rem;
     font-size: 1.5rem;
