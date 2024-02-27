@@ -7,17 +7,13 @@ export default function ContentContainer() {
         <>
             <div id='content-container-main'>
                 <section id='content-intro'>
-                    <h1>K A T</h1>
-                    <img id='image-logo-main' src={logo} />
                     <h2>Kubernetes API Tracker</h2>
-                    <p>No Frills | No Login | No Permissions | No BS</p>
+                    <p>No Frills | No Login | No Permissions</p>
                 </section>
 
                 <section id='content-dashboard'>
-                    <h2> One Screen - Two Features - Zero Fluff</h2>
-                    <hr />
+                    <h2> One Screen - Two Features</h2>
                     <img id='image-dashboard' src={dashboard} />
-                    <hr />
                 </section>
 
                 <section id='content-midway'>
@@ -36,8 +32,7 @@ export default function ContentContainer() {
                         <p>Simply enter the repo and install links and we'll do a dry-run before you ever need to install it on your machine</p>
                     </div>
                 </section>
-                <hr />
-
+                {/* <hr /> */}
             </div>
         </>
     )
