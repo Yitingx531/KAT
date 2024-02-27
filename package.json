@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Kubernetes API tracking",
   "scripts": {
+    "predeploy": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
     "start": "nodemon ./server/server.js",
