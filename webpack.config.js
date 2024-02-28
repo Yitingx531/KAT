@@ -13,7 +13,7 @@ const config = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, './src/static'),
+      directory: path.join(__dirname, './index.html'),
     },
     proxy: [
       {
