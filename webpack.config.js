@@ -6,14 +6,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const isProduction = process.env.NODE_ENV == 'production';
 
 const config = {
-  entry: './src/index.jsx',
+  entry: './public/index.jsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, './index.html'),
+      directory: path.join(__dirname, './public/static/index.html'),
     },
     proxy: [
       {
@@ -32,7 +32,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: './public/static/index.html',
     }),
   ],
   module: {

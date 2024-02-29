@@ -20,7 +20,7 @@ export default function NavContainer(){
         <div className='navContainer'>
           <img id='image-logo-main' src={logo} />
           <div id="links">
-            <Link to='/' className='nav-link'>Home</Link>
+            {/* <Link to='/' className='nav-link'>Home</Link> */}
             <Link to='/about' className='nav-link'>About</Link>
             <Link to='https://github.com/oslabs-beta/K8sDependencyTracker' target="_blank" className='nav-link'>GitHub</Link>
             <Link to='/' className='nav-link' onClick={() => setShouldScrollToBottom(true)}>Team</Link>
