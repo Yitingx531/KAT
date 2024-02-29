@@ -8,13 +8,11 @@ const isProduction = process.env.NODE_ENV == 'production';
 const config = {
   entry: './public/index.jsx',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js'
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, './public/static/index.html'),
-    },
+    contentBase: './build',
     proxy: [
       {
         context: ['/api'],
@@ -32,7 +30,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/static/index.html',
+      template: path.resolve('./public/static/index.html'),
     }),
   ],
   module: {
