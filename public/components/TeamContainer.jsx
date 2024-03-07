@@ -38,7 +38,7 @@ return(
      <a href={tylerLinkedIn}><img className='profile' src={tyler}/></a>
      <a href='https://www.linkedin.com/in/tylersavitsky/'><p>Tyler Savitsky</p></a>
        <div className='icons'>
-       <a href={tylerLinkedIn}><FaGithub className='gitHub'/></a>
+       <a href='https://github.com/booleanmagus'><FaGithub className='gitHub'/></a>
        <a href={tylerLinkedIn}><BsLinkedin className='linkedIn'/></a>
        </div>
     </div>
