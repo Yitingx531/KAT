@@ -9,9 +9,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.resolve(__dirname, '../dist')));
 
 app.use(express.static(path.resolve(__dirname, './src/static/tempImages')));
-app.get('/', (req, res) => {
-    return res.status(200).sendFile('../index.html');
-});
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`);
